@@ -21,7 +21,7 @@ public class CategoryDTO implements Serializable {
 
 	public CategoryDTO(Category entity) {
 		this.id = entity.getId();
-		this.nome = entity.getNome();
+		this.nome = entity.getnome();
 	}
 
 	public Long getId() {
@@ -32,11 +32,11 @@ public class CategoryDTO implements Serializable {
 		this.id = id;
 	}
 
-	public String getNome() {
+	public String getnome() {
 		return nome;
 	}
 
-	public void setNome(String nome) {
+	public void setnome(String nome) {
 		this.nome = nome;
 	}
 

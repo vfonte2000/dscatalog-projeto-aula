@@ -41,7 +41,7 @@ public class CategoryService {
 	@Transactional
 	public CategoryDTO insert(CategoryDTO dto) {
 		Category entity = new Category();
-		entity.setNome(dto.getNome());
+		entity.setnome(dto.getnome());
 		entity = repository.save(entity);
 		return new CategoryDTO(entity);
 	}
@@ -51,7 +51,7 @@ public class CategoryService {
 
 		try {
 			Category entity = repository.getOne(id);
-			entity.setNome(dto.getNome());
+			entity.setnome(dto.getnome());
 			entity = repository.save(entity);
 			return new CategoryDTO(entity);
 		} catch (EntityNotFoundException e) {
