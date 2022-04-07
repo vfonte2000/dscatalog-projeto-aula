@@ -2,6 +2,8 @@ package com.devsuperior.dscatalog.dto;
 
 import java.io.Serializable;
 
+
+
 import com.devsuperior.dscatalog.entities.Category;
 
 public class CategoryDTO implements Serializable {
