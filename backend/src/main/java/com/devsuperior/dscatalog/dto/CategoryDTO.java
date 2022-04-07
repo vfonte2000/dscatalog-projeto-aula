@@ -2,7 +2,7 @@ package com.devsuperior.dscatalog.dto;
 
 import java.io.Serializable;
 
-
+oi
 
 import com.devsuperior.dscatalog.entities.Category;
 
